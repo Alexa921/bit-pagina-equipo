@@ -1,21 +1,30 @@
-body {
+* {
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    box-sizing: border-box;
 }
 
 /*HEADER*/
 
 img {
     width: 100%;
-    height: 700px;
+    height: 1000px;
 }
 
 h1 {
-    font-size: 150px;
+    font-size: 170px;
     color: white;
-    margin-top: -450px;
-    margin-left: 750px;
+    margin-top: -650px;
+    margin-left: 980px;
 }
 
 /*MAIN*/
@@ -25,13 +34,14 @@ h1 {
     color: #062B6E;
     display: flex;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 600px;
 }
 
 .texto-significado-java, .texto-para-que-sirve, .texto-multiplataforma, .texto-objetos {
-    font-size: 20px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .segundo-subtitulo, .tercer-subtitulo, .cuarto-subtitulo {
@@ -46,7 +56,7 @@ iframe {
     width: 900px;
     height: 500px;
     margin-top: 150px;
-    margin-left: 510px;
+    margin-left: 740px;
     margin-bottom: 200px;
 }
 
@@ -63,85 +73,143 @@ footer {
 }
 
 .imagen-logo-footer {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-top: 95px;
-    margin-left: 110px;
+    margin-left: 190px;
 }
 
 .texto-footer {
     color: white;
-    font-size: 18px;
-    margin-top: 60px;
-    margin-left: 790px;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 1000px;
 }
 
 /*MEDIA QUERIES*/
-
-@media screen and (min-width: 768px) {
-    body {
-        width: 41%;
-        height: 100%;
-        overflow-x: hidden;
-      }
-    /*HEADER*/
-
+/*Computador*/
+@media (max-width: 1024px) {
     img {
-        width: 100%;
-        height: 440px;
+        width: 1023px;
+        height: 700px;
     }
-
     h1 {
         font-size: 100px;
-        margin-top: -300px;
-        margin-left: 280px;
+        margin-top: -400px;
+        margin-left: 50px;
+        text-align: center;
     }
-    /*MAIN*/
 
     .primer-subtitulo {
         font-size: 30px;
-        margin-top: 250px;
-        margin-left: -20px;
+        margin-top: 400px;
+        text-align: center;
+    }
+
+    .segundo-subtitulo, .tercer-subtitulo, .cuarto-subtitulo {
+        font-size: 30px;
+        margin-top: 100px;
+        text-align: center;
     }
 
     .texto-significado-java, .texto-para-que-sirve, .texto-multiplataforma, .texto-objetos {
-        font-size: 16px;
-        margin-left: -10px;
-    }
-    .segundo-subtitulo, .tercer-subtitulo, .cuarto-subtitulo {
         font-size: 18px;
-        margin-top: 100px;
-        margin-left: -100;
+        margin: 0 20px;
+        text-align: center;
     }
-    
-    .texto-caracteristicas, .texto-pull-requests, .texto-actions, .texto-usuarios {
-        font-size: 16px;
-        margin-left: -10px;
-        margin-left: -100;
-    }
-    
-    iframe {
-        width: 500px;
-        height: 300px;
-        margin-top: 50px;
-        margin-left: 120px;
-        margin-bottom: 500px;
-    }
-     /*FOOTER*/
 
-     footer {
-        width: 129%;
-        height: 210px;
+    iframe {
+        width: 80%;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+
+    footer {
+        height: auto;
+        text-align: center;
+        padding: 20px 0;
     }
 
     .contenedor-imagenes-footer {
-        margin-top: -420px;
-        margin-left: 00px;
+        margin: 0;
+        margin-left: -50px;
+    }
+
+    .imagen-logo-footer {
+        margin: 20px auto;
+        width: 50px;
+        height: 50px;
+        margin-left: 80px;
     }
 
     .texto-footer {
-        font-size: 15px;
-        margin-top: 30px;
-        margin-left: 270px;
+        font-size: 18px;
+        margin: 20px auto;
     }
 }
+/*celular*/
+@media (max-width: 375px) {
+    img {
+        width: 396px;
+        height: 300px; 
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: -150px;
+        margin-left: -10px;
+        text-align: center;
+    }
+
+    .primer-subtitulo {
+        font-size: 18px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .segundo-subtitulo, .tercer-subtitulo, .cuarto-subtitulo {
+        font-size: 18px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .texto-significado-java, .texto-para-que-sirve, .texto-multiplataforma, .texto-objetos {
+        font-size: 14px;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%; 
+        height: 200px; 
+        margin: 80px 0px; 
+    }
+
+    /* FOOTER */
+    footer {
+        height: auto;
+        padding: 20px; 
+    }
+
+    .contenedor-imagenes-footer {
+        margin-left: 0; 
+        display: flex;
+        justify-content: center;
+        gap: 10px; 
+        flex-wrap: wrap; 
+    }
+
+    .imagen-logo-footer {
+        margin: 10px; 
+        width: 40px; 
+        height: 40px;
+    }
+
+    .texto-footer {
+        font-size: 14px;
+        text-align: center; 
+        margin: 10px 0; 
+    }
+}
+
