@@ -15,7 +15,7 @@ h1 {
     font-size: 150px;
     color: white;
     margin-top: -450px;
-    margin-left: 700px;
+    margin-left: 750px;
 }
 
 /*MAIN*/
@@ -28,38 +28,18 @@ h1 {
     margin-top: 400px;
 }
 
-.texto-significado-github {
+.texto-significado-java, .texto-para-que-sirve, .texto-multiplataforma, .texto-objetos {
     font-size: 20px;
     display: flex;
     justify-content: center;
 }
 
-li {
-    font-size: 20px;
-    margin-left: 580px;
-}
-
-.segundo-subtitulo {
+.segundo-subtitulo, .tercer-subtitulo, .cuarto-subtitulo {
     font-size: 40px;
     color: #062B6E;
     display: flex;
     justify-content: center;
     margin-top: 100px;
-}
-
-.subtitulo-caracteristicas, .tercer-subtitulo, .cuarto-subtitulo, .quinto-subtitulo {
-    font-size: 25px;
-    color: #062B6E;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-
-.texto-caracteristicas, .texto-pull-requests, .texto-actions, .texto-usuarios {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
 }
 
 iframe {

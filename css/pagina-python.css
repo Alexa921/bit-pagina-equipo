@@ -15,7 +15,7 @@ h1 {
     font-size: 150px;
     color: white;
     margin-top: -450px;
-    margin-left: 700px;
+    margin-left: 680px;
 }
 
 /*MAIN*/
@@ -28,15 +28,10 @@ h1 {
     margin-top: 400px;
 }
 
-.texto-significado-github {
+.texto-python {
     font-size: 20px;
     display: flex;
     justify-content: center;
-}
-
-li {
-    font-size: 20px;
-    margin-left: 580px;
 }
 
 .segundo-subtitulo {
@@ -47,19 +42,14 @@ li {
     margin-top: 100px;
 }
 
-.subtitulo-caracteristicas, .tercer-subtitulo, .cuarto-subtitulo, .quinto-subtitulo {
-    font-size: 25px;
-    color: #062B6E;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+.texto-beneficios-python {
+    font-size: 20px;
+    margin-left: 565px;
 }
 
-.texto-caracteristicas, .texto-pull-requests, .texto-actions, .texto-usuarios {
+li {
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
+    margin-left: 545px;
 }
 
 iframe {

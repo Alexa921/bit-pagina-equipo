@@ -3,68 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/javascript.css">
+    <link rel="stylesheet" href="css/pagina-javascript.css">
     <title>JavaScript</title>
 </head>
 <body>
     <header>
-        <img src="img/portada-github.css" alt="Imagen portada de javascript">
+        <img src="img/portada-javascript.jpg" alt="Imagen portada de javascript">
         <h1>JavaScript</h1>
     </header>
     <main>
         <h2 class="primer-subtitulo">¿Qué es JavaScript?</h2>
-        <p class="texto-javascript">JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define <br> 
-        como orientado a objetos​ basado en prototipos, imperativo, débilmente tipado y dinámico.
+        <p class="texto-javascript">JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, <br>  
+        dialecto del estándar ECMAScript. Se define como orientado a objetos​ basado en <br>  
+        prototipos, imperativo, débilmente tipado y dinámico.
         <br><br>
-        Se utiliza principalmente del lado del cliente, implementado como parte de un navegador web permitiendo mejoras en la interfaz de <br>
-        usuario y páginas web dinámicas y JavaScript del lado del servidor (Server-side JavaScript o SSJS). Su uso en aplicaciones externas <br>
-        a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo.</p>
+        Se utiliza principalmente del lado del cliente, implementado como parte de un navegador <br>  
+        web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas y JavaScript <br> 
+        del lado del servidor (Server-side JavaScript o SSJS). Su uso en aplicaciones externas <br>
+        a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente <br>  
+        widgets) es también significativo.</p>
 
         <h2 class="segundo-subtitulo">Características</h2>
         <h3 class="subtitulo-caracteristicas">Imperativo y estructurado</h3>
-        <p class="texto-imperativo-estrucurado">JavaScript es compatible con gran parte de la estructura de programación de C (por ejemplo, sentencias if, bucles for, sentencias switch, etc.). <br>
-        Con una salvedad, en parte: en C, el ámbito de las variables alcanza al bloque en el cual fueron definidas; sin embargo JavaScript no es compatible <br>
-        con esto, puesto que el ámbito de las variables es el de la función en la cual fueron declaradas. Esto cambia con la versión de ECMAScript 2015,<br>
-        ya que añade compatibilidad con block scoping por medio de la palabra clave let. Como en C, JavaScript hace distinción entre expresiones y sentencias. <br>
-        Una diferencia sintáctica con respecto a C es la inserción automática de punto y coma, es decir, en JavaScript los puntos y coma que finalizan una <br>
-        sentencia pueden ser omitidos.</p>
+        <p class="texto-imperativo-estrucurado">JavaScript es compatible con gran parte de la estructura de programación de C <br> 
+        (por ejemplo, sentencias if, bucles for, sentencias switch, etc.). Con una salvedad, <br>
+        en parte: en C, el ámbito de las variables alcanza al bloque en el cual fueron <br>
+        definidas; sin embargo JavaScript no es compatible con esto, puesto que el ámbito <br>
+        de las variables es el de la función en la cual fueron declaradas. Esto cambia con la <br>
+        versión de ECMAScript 2015, ya que añade compatibilidad con block scoping por <br>
+        medio de la palabra clave let. Como en C, JavaScript hace distinción entre expresiones <br> 
+        y sentencias. Una diferencia sintáctica con respecto a C es la inserción automática de <br>
+        punto y coma, es decir, en JavaScript los puntos y coma que finalizan una sentencia <br>
+        pueden ser omitidos.</p>
         
         <h2 class="segundo-subtitulo">Dinámicos</h2>
         <h3 class="subtitulo-tipado-dinamico">Tipado dinámico</h3>
-        <p class="texto-tipado-dinamico">Como en la mayoría de lenguajes de scripting, el tipo está asociado al valor, no a la variable. Por ejemplo, una variable x en un momento dado puede <br>
-        estar ligada a un número y más adelante, religada a una cadena. JavaScript es compatible con varias formas de comprobar el tipo de un objeto, incluyendo <br> 
-        duck typing. Una forma de saberlo es por medio de la palabra clave typeof.</p>
+        <p class="texto-tipado-dinamico">Como en la mayoría de lenguajes de scripting, el tipo está asociado al valor, no a <br>
+        la variable. Por ejemplo, una variable x en un momento dado puede estar ligada a <br> 
+        un número y más adelante, religada a una cadena. JavaScript es compatible con <br>
+        varias formas de comprobar el tipo de un objeto, incluyendo duck typing. Una forma <br>
+        de saberlo es por medio de la palabra clave typeof.</p>
         
         <h3 class="subtitulo-objetual">Objetual</h3>
-        <p class="texto-objetual">JavaScript está formado casi en su totalidad por objetos. Los objetos en JavaScript son arrays asociativos, mejorados con la inclusión de prototipos <br>
-        (ver más adelante). Los nombres de las propiedades de los objetos son claves de tipo cadena: obj.x = 10 y obj['x'] = 10 son equivalentes, siendo <br>
-        azúcar sintáctico la notación con punto. Las propiedades y sus valores pueden ser creados, cambiados o eliminados en tiempo de ejecución. La <br>
-        mayoría de propiedades de un objeto (y aquellas que son incluidas por la cadena de la herencia prototípica) pueden ser enumeradas por medio <br>
-        de la instrucción de bucle for... in. JavaScript tiene un pequeño número de objetos predefinidos como son Function y Date.</p>
+        <p class="texto-objetual">JavaScript está formado casi en su totalidad por objetos. Los objetos en JavaScript <br>
+        son arrays asociativos, mejorados con la inclusión de prototipos (ver más adelante). <br>
+        Los nombres de las propiedades de los objetos son claves de tipo cadena: obj.x = <br>
+        10 y obj['x'] = 10 son equivalentes, siendo azúcar sintáctico la notación con punto. <br>
+        Las propiedades y sus valores pueden ser creados, cambiados o eliminados en <br>
+        tiempo de ejecución. La mayoría de propiedades de un objeto (y aquellas que son <br>
+        incluidas por la cadena de la herencia prototípica) pueden ser enumeradas por medio <br>
+        de la instrucción de bucle for... in. JavaScript tiene un pequeño número de objetos <br>
+        predefinidos como son Function y Date.</p>
 
         <h3 class="subtitulo-evaluacion-ejecucion">Evaluación en tiempo de ejecución</h3>
-        <p class="texto-evaluacion-ejecucion">JavaScript incluye la función eval que permite evaluar expresiones expresadas como cadenas en tiempo de ejecución. Por ello se recomienda <br>
-        que eval sea utilizado con precaución y que se opte por utilizar la función JSON.parse() en la medida de lo posible, pues puede resultar mucho <br>
-        más segura.</p>
+        <p class="texto-evaluacion-ejecucion">JavaScript incluye la función eval que permite evaluar expresiones expresadas como <br>
+        cadenas en tiempo de ejecución. Por ello se recomienda que eval sea utilizado con <br>
+        precaución y que se opte por utilizar la función JSON.parse() en la medida de lo <br>
+        posible, pues puede resultar mucho más segura.</p>
 
         <h2 class="tercer-subtitulo">Funcional</h2>
         <h3 class="subtitulo-funciones-primera-clase">Funciones de primera clase</h3>
-        <p class="texto-funciones-primera-clase">A las funciones se les suele llamar ciudadanos de primera clase; son objetos en sí mismos. Como tal, poseen propiedades y métodos, como <br>
-        .call() y .bind().​ Una función anidada es una función definida dentro de otra. Esta es creada cada vez que la función externa es invocada. <br>
-        Además, cada función creada forma una clausura; es el resultado de evaluar un ámbito conteniendo en una o más variables dependientes <br> 
-        de otro ámbito externo, incluyendo constantes, variables locales y argumentos de la función externa llamante. El resultado de la evaluación <br>
-        de dicha clausura forma parte del estado interno de cada objeto función, incluso después de que la función exterior concluya su evaluación.</p>
+        <p class="texto-funciones-primera-clase">A las funciones se les suele llamar ciudadanos de primera clase; son objetos en <br>  
+        sí mismos. Como tal, poseen propiedades y métodos, como .call() y .bind().​ Una <br>  
+        función anidada es una función definida dentro de otra. Esta es creada cada vez <br> 
+        que la función externa es invocada. Además, cada función creada forma una clausura; <br> 
+        es el resultado de evaluar un ámbito conteniendo en una o más variables dependientes <br>
+        de otro ámbito externo, incluyendo constantes, variables locales y argumentos de la <br> 
+        función externa llamante. El resultado de la evaluación de dicha clausura forma parte <br> 
+        del estado interno de cada objeto función, incluso después de que la función exterior <br>
+        concluya su evaluación.</p>
 
         <h2 class="cuarto-prototipico">Prototípico</h2>
         <h3 class="subtitulo-funciones-constructores-objeto">Funciones como constructores de objetos</h3>
-        <p class="texto-funciones-constructores-objeto">Las funciones también se comportan como constructores. Prefijar una llamada a la función con la palabra clave new crear una nueva instancia <br>
-        de un prototipo, que heredan propiedades y métodos del constructor (incluidas las propiedades del prototipo de Object).​ ECMAScript 5 ofrece <br>
-        el método Object.create, permitiendo la creación explícita de una instancia sin tener que heredar automáticamente del prototipo de Object <br> 
-        (en entornos antiguos puede aparecer el prototipo del objeto creado como null).​ La propiedad prototype del constructor determina el objeto <br>
-        usado para el prototipo interno de los nuevos objetos creados. Se pueden añadir nuevos métodos modificando el prototipo del objeto usado <br>
-        como constructor. Constructores predefinidos en JavaScript, como Array u Object, también tienen prototipos que pueden ser modificados. <br>
-        Aunque esto sea posible se considera una mala práctica modificar el prototipo de Object ya que la mayoría de los objetos en Javascript heredan <br>
-        los métodos y propiedades del objeto prototype, objetos los cuales pueden esperar que estos no hayan sido modificados.</p>
+        <p class="texto-funciones-constructores-objeto">Las funciones también se comportan como constructores. Prefijar una llamada a la <br>
+        función con la palabra clave new crear una nueva instancia de un prototipo, que <br> heredan propiedades y métodos del constructor (incluidas las propiedades del <br> 
+        prototipo de Object).​ ECMAScript 5 ofrece el método Object.create, permitiendo <br> 
+        la creación explícita de una instancia sin tener que heredar automáticamente del <br> 
+        prototipode Object (en entornos antiguos puede aparecer el prototipo del objeto <br>
+        creado como null).​ La propiedad prototype del constructor determina el objeto <br>
+        usado para el prototipo interno de los nuevos objetos creados. Se pueden añadir <br>
+        nuevos métodos modificando el prototipo del objeto usado como constructor. <br>
+        Constructores predefinidos en JavaScript, como Array u Object, también tienen <br>
+        prototipos que pueden ser modificados. Aunque esto sea posible se considera una <br>
+        mala práctica modificar el prototipo de Object ya que la mayoría de los objetos en <br>
+        Javascript heredan los métodos y propiedades del objeto prototype, objetos los <br> 
+        cuales pueden esperar que estos no hayan sido modificados.</p>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Z34BF9PCfYg?si=hmv-bqTysN-zVJ7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </main>
