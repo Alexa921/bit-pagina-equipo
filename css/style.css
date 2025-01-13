@@ -25,6 +25,7 @@ html, body {
     margin-top: -1000px;
     margin-left: 200px;
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
 
@@ -32,6 +33,7 @@ html, body {
     list-style: none;
     display: flex;
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     font-size: 28px;
     margin-top: -44px;
     margin-left: 420px;
@@ -56,6 +58,7 @@ html, body {
 
 h1 {
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     font-size:160px;
     margin-left: 395px;
     padding-top: 210px;
@@ -64,6 +67,7 @@ h1 {
 
 .subtitulo {
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     font-size: 50px;
     font-weight: 200;
     margin-left: 640px;
@@ -263,7 +267,9 @@ h1 {
 .nombre-programador10, .nombre-programador11, .nombre-programador12 {
     font-size: 25px;
     margin-top: 60px;
-    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portafolio-programador, .portafolio-programador2, .portafolio-programador3,
@@ -272,8 +278,10 @@ h1 {
 .portafolio-programador10, .portafolio-programador11, .portafolio-programador12 {
     text-decoration: none;
     color: #062B6E;
-    font-size: 16px;
-    margin-left: 145px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Contenedor perfil2*/
