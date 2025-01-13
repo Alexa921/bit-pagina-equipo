@@ -423,6 +423,621 @@ footer {
     margin-left: 790px;
 }
 
+/*MEDIA QUERIES*/
+/*Tablet*/
+
+@media (min-width: 768px) and ( max-width: 768px) {
+    body {
+        width: 78%;
+        height: 100%;
+        overflow-x: hidden;
+      }
+    /*HEADER*/
+    .imagen-fondo {
+        width: 129%;
+        height: 580px;
+    }
+    .titulo-header {
+        font-size: 35px;
+        margin-top: -520px;
+        margin-left: 15px;
+    }
+    .lista-header {
+        font-size: 15px;
+        margin-top: -27px;
+        margin-left: 20px;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-top: -60px;
+        margin-left: 690px;
+
+    }
+    h1 {
+        font-size: 33px;
+        margin-left: 230px;
+        padding-top: 140px;
+    }
+    .subtitulo {
+        font-size: 16px;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    /*SECTION1*/
+
+    .subtitulo-section1 {
+        font-size: 44px;
+        margin-top: 220px;
+        margin-left: 250px;
+    }
+    .texto-subtitulo-section1 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+    .lista-section1 {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+    
+    .contenido-lista-section1 {
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+    
+    .contenedor-imagen {
+        margin-left: 100px;
+        width: 700px;
+    }
+    
+    .logo-section1 {
+        width: 50px;
+        height: 50px;
+        margin: 73px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    /*SECTION2 DESARROLLO WEB*/
+
+    .subtitulo-section2 {
+        font-size: 25px;
+        margin-top: 100px;
+        margin-right: 410px;
+    }
+
+    .imagen-section2 {
+        width: 400px;
+        height: 250px;
+        margin-top: -30px;
+        margin-left: 350px;
+    }
+
+    .texto-desarrollo-web {
+        font-size: 11px;
+        margin-top: -200px;
+        margin-right: 260px;
+    }
+    /*SECTION3 MARKETING DIGITAL*/
+
+    .subtitulo-section3 {
+        font-size: 20px;
+        margin-top: 240px;
+        margin-left: 430px;
+    }
+
+    .imagen-section3 {
+        width: 400px;
+        height: 250px;
+        margin-top: -24px;
+        margin-right: 180px;
+    }
+
+    .texto-marketing-digital {
+        font-size: 11px;
+        margin-top: -180px;
+        margin-left: 430px;
+    }
+    /*SECTION4 DISEÑO UX UI*/
+
+    .subtitulo-section4 {
+        font-size: 25px;
+        margin-top: 150px;
+        margin-right: 430px;
+    }
+
+    .imagen-section4 {
+        width: 400px;
+        height: 250px;
+        margin-top: -30px;
+        margin-left: 350px;
+    }
+
+    .texto-diseño-ux-ui {
+        font-size: 11px;
+        margin-top: -200px;
+        margin-right: 260px;
+    }
+    /*SECTION5 DESARROLLO DE APPS*/
+
+    .subtitulo-section5 {
+        font-size: 25px;
+        margin-top: 200px;
+        margin-left: 420px;
+    }
+
+    .imagen-section5 {
+        width: 400px;
+        height: 250px;
+        margin-top: -60px;
+        margin-right: 190px;
+    }
+
+    .texto-desarrollo-de-apps {
+        font-size: 11px;
+        margin-top: -170px;
+        margin-left: 420px;
+    }
+    /*SECTION6 PERFIL DE PROGRAMADORES*/
+
+    /*Contenedor perfil1*/
+
+    .titulo-perfil-programadores {
+        font-size: 32px;
+        margin-top: 2050px;
+        margin-left: 300px;
+    }
+
+    .contenedor1-perfil-programadores {
+        width: 170px;
+        height: 220px;
+        margin-left: 50px;
+    }
+
+    .foto-programador, .foto-programador2, .foto-programador3,
+    .foto-programador4, .foto-programador5, .foto-programador6,
+    .foto-programador7, .foto-programador8, .foto-programador9,
+    .foto-programador10, .foto-programador11, .foto-programador12 {
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+    .nombre-programador, .nombre-programador2, .nombre-programador3,
+    .nombre-programador4, .nombre-programador5, .nombre-programador6,
+    .nombre-programador7, .nombre-programador8, .nombre-programador9,
+    .nombre-programador10, .nombre-programador11, .nombre-programador12 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .portafolio-programador, .portafolio-programador2, .portafolio-programador3,
+    .portafolio-programador4, .portafolio-programador5, .portafolio-programador6,
+    .portafolio-programador7, .portafolio-programador8, .portafolio-programador9,
+    .portafolio-programador10, .portafolio-programador11, .portafolio-programador12 {
+        font-size: 15px;
+        margin-left: 60px;
+    }
+    /*Contenedor perfil2*/
+
+    .contenedor2-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 300px;
+    }
+    /*Contenedor perfil3*/
+
+    .contenedor3-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 550px;
+    }
+    /*Contenedor perfil4*/
+
+    .contenedor4-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 800px;
+    }
+    /*Contenedor perfil5*/
+
+    .contenedor5-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+
+    /*Contenedor perfil6*/
+
+    .contenedor6-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -220px;
+        margin-left: 300px;
+    }
+    /*Contenedor perfil7*/
+
+    .contenedor7-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 550px;
+    }
+
+    /*Contenedor perfil8*/
+
+    .contenedor8-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 800px;
+    }
+    /*Contenedor perfil9*/
+
+    .contenedor9-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -25px;
+        margin-left: 50px;
+    }
+
+    /*Contenedor perfil10*/
+
+    .contenedor10-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 300px;
+    }
+    /*Contenedor perfil11*/
+
+    .contenedor11-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 550px;
+    }
+
+    /*Contenedor perfil12*/
+
+    .contenedor12-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -150px;
+        margin-left: 800px;
+        margin-bottom: 40px;
+    }
+    /*FOOTER*/
+
+    footer {
+        width: 129%;
+        height: 230px;
+    }
+
+    .contenedor-imagenes-footer {
+        margin-left: 10px;
+    }
+
+    .texto-footer {
+        font-size: 17px;
+        margin-top: 40px;
+        margin-left: 260px;
+    }
+}
+
+/*Celular*/
+
+@media (min-width: 375px) and ( max-width: 375px) {
+    body {
+        width: 241%;
+        height: 100%;
+        overflow-x: hidden;
+      }
+    /*HEADER*/
+    .imagen-fondo {
+        width: 129%;
+        height: 600px;
+    }
+    .titulo-header {
+        font-size: 45px;
+        margin-top: -520px;
+        margin-left: 150px;
+    }
+    .lista-header {
+        visibility: hidden;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+        margin-top: -60px;
+        margin-left: 900px;
+
+    }
+    h1 {
+        font-size: 50px;
+        margin-left: 290px;
+        padding-top: 100px;
+    }
+    .subtitulo {
+        font-size: 28px;
+        margin-left: 250px;
+        margin-top: 30px;
+    }
+    /*SECTION1*/
+
+    .subtitulo-section1 {
+        font-size: 54px;
+        margin-top: 220px;
+        margin-left: 370px;
+    }
+    .texto-subtitulo-section1 {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-left: 220px;
+    }
+    .lista-section1 {
+        font-size: 22px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    
+    .contenido-lista-section1 {
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+    
+    .contenedor-imagen {
+        margin-left: 240px;
+        width: 700px;
+    }
+    
+    .logo-section1 {
+        width: 50px;
+        height: 50px;
+        margin: 80px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    /*SECTION2 DESARROLLO WEB*/
+
+    .subtitulo-section2 {
+        font-size: 40px;
+        margin-top: 130px;
+        margin-right: 200px;
+    }
+
+    .imagen-section2 {
+        width: 700px;
+        height: 450px;
+        margin-top: 350px;
+        margin-left: 220px;
+    }
+
+    .texto-desarrollo-web {
+        font-size: 28px;
+        margin-top: -750px;
+        margin-right: -80px;
+    }
+    /*SECTION3 MARKETING DIGITAL*/
+
+    .subtitulo-section3 {
+        font-size: 40px;
+        margin-top: 240px;
+        margin-left: 430px;
+    }
+
+    .imagen-section3 {
+        width: 700px;
+        height: 450px;
+        margin-top: 480px;
+        margin-right: -50px;
+    }
+
+    .texto-marketing-digital {
+        font-size: 28px;
+        margin-top: -800px;
+        margin-left: 80px;
+    }
+    /*SECTION4 DISEÑO UX UI*/
+
+    .subtitulo-section4 {
+        font-size: 40px;
+        margin-top: 300px;
+        margin-right: 200px;
+    }
+
+    .imagen-section4 {
+        width: 700px;
+        height: 450px;
+        margin-top: 300px;
+        margin-left: 250px;
+    }
+
+    .texto-diseño-ux-ui {
+        font-size: 28px;
+        margin-top: -700px;
+        margin-right: -140px;
+    }
+    /*SECTION5 DESARROLLO DE APPS*/
+
+    .subtitulo-section5 {
+        font-size: 50px;
+        margin-top: 300px;
+        margin-left: 420px;
+    }
+
+    .imagen-section5 {
+        width: 700px;
+        height: 450px;
+        margin-top: 400px;
+        margin-right: -60px;
+    }
+
+    .texto-desarrollo-de-apps {
+        font-size: 28px;
+        margin-top: -750px;
+        margin-left: 105px;
+    }
+    /*SECTION6 PERFIL DE PROGRAMADORES*/
+
+    /*Contenedor perfil1*/
+
+    .titulo-perfil-programadores {
+        font-size: 45px;
+        margin-top: 5000px;
+        margin-left: 300px;
+    }
+
+    .contenedor1-perfil-programadores {
+        width: 170px;
+        height: 220px;
+        margin-left: 50px;
+    }
+
+    .foto-programador, .foto-programador2, .foto-programador3,
+    .foto-programador4, .foto-programador5, .foto-programador6,
+    .foto-programador7, .foto-programador8, .foto-programador9,
+    .foto-programador10, .foto-programador11, .foto-programador12 {
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+    .nombre-programador, .nombre-programador2, .nombre-programador3,
+    .nombre-programador4, .nombre-programador5, .nombre-programador6,
+    .nombre-programador7, .nombre-programador8, .nombre-programador9,
+    .nombre-programador10, .nombre-programador11, .nombre-programador12 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .portafolio-programador, .portafolio-programador2, .portafolio-programador3,
+    .portafolio-programador4, .portafolio-programador5, .portafolio-programador6,
+    .portafolio-programador7, .portafolio-programador8, .portafolio-programador9,
+    .portafolio-programador10, .portafolio-programador11, .portafolio-programador12 {
+        font-size: 15px;
+        margin-left: 60px;
+    }
+    /*Contenedor perfil2*/
+
+    .contenedor2-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 300px;
+    }
+    /*Contenedor perfil3*/
+
+    .contenedor3-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 550px;
+    }
+    /*Contenedor perfil4*/
+
+    .contenedor4-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 800px;
+    }
+    /*Contenedor perfil5*/
+
+    .contenedor5-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+
+    /*Contenedor perfil6*/
+
+    .contenedor6-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -220px;
+        margin-left: 300px;
+    }
+    /*Contenedor perfil7*/
+
+    .contenedor7-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 550px;
+    }
+
+    /*Contenedor perfil8*/
+
+    .contenedor8-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 800px;
+    }
+    /*Contenedor perfil9*/
+
+    .contenedor9-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -25px;
+        margin-left: 50px;
+    }
+
+    /*Contenedor perfil10*/
+
+    .contenedor10-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 300px;
+    }
+    /*Contenedor perfil11*/
+
+    .contenedor11-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 550px;
+    }
+
+    /*Contenedor perfil12*/
+
+    .contenedor12-perfil-programadores{
+        width: 170px;
+        height: 220px;
+        margin-top: -300px;
+        margin-left: 800px;
+        margin-bottom: 180px;
+    }
+    /*FOOTER*/
+
+    footer {
+        width: 129%;
+        height: 230px;
+    }
+
+    .contenedor-imagenes-footer {
+        margin-left: 200px;
+    }
+
+    .texto-footer {
+        font-size: 27px;
+        margin-top: 40px;
+        margin-left: 370px;
+    }
+}
+
 
 
 
