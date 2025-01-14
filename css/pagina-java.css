@@ -25,7 +25,7 @@ h1 {
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-top: -650px;
-    margin-left: 980px;
+    margin-left: 700px;
 }
 
 /*MAIN*/
@@ -57,7 +57,7 @@ iframe {
     width: 900px;
     height: 500px;
     margin-top: 150px;
-    margin-left: 740px;
+    margin-left: 500px;
     margin-bottom: 200px;
 }
 
@@ -74,17 +74,17 @@ footer {
 }
 
 .imagen-logo-footer {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-top: 95px;
-    margin-left: 190px;
+    margin-left: 100px;
 }
 
 .texto-footer {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 50px;
-    margin-left: 1000px;
+    margin-left: 780px;
 }
 
 /*MEDIA QUERIES*/
